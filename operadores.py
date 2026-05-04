@@ -1,8 +1,8 @@
 valor1= float(input("ingrese primer valor "))
+
 valor2= float(input("ingrese segundo valor "))
 
-print("elije la operacion")
-print("1.suma \ 2.resta \ 3.multiplicacion \ 4.divicion \ 5.modulo \ 6.divicion_entero \ 7.potencia")
+
 
 suma= float (valor1 +valor2)
 resta= float(valor1-valor2)
@@ -12,6 +12,9 @@ modulo= float(valor1%valor2)
 divicion_entero= float(valor1//valor2)
 potencia= float(valor1**valor2)
 
+
+print("elije la operacion")
+print("1.suma \ 2.resta \ 3.multiplicacion \ 4.divicion \ 5.modulo \ 6.divicion_entero \ 7.potencia")
 opcion= int(input("escoge una opcion (numero): "))
 
 
