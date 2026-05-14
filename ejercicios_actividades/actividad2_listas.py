@@ -6,7 +6,7 @@ temperaturas = [18, 21, 19, 24, 22, 20, 17, 23, 25, 21, 18,20, 22, 19]
 print("primer dia: ", temperaturas[0])
 print("ultimo dia: ", temperaturas[-1])
 print("dia 7: ", temperaturas[len(temperaturas)//2])
-print("primer dia: ", temperaturas[-2])
+print("penultimo dia: ", temperaturas[-2])
 
 #punto 3
 print("primera semana: ",temperaturas[:7])
