@@ -9,12 +9,13 @@ cantidad_productos=[50, 60, 62, 3, 47, 500]
 
 total_productos=len(productos)
 #punto 4
-print("inventario de la tienda escolar:" \
+print("(primera forma) inventario de la tienda escolar:" \
 "\n productos: ", productos,
 "\n precios: " , precios_productos,
 "\n cantidades: ", cantidad_productos,
 "\n total de prodcutos: ", total_productos ) 
 
+print("(segunda forma) inventario de la tienda escolar: ")
 for x in range(0, total_productos) :
     print(f"Producto: {productos[x]} Precio: {precios_productos[x]} Cantidad: {cantidad_productos[x]}")
 
