@@ -28,14 +28,16 @@ grupo={
             }
 }
 
-#punto 2
+
+#punto 2 y 3
 #funcion para calcular el promedio de las notas de cada aprendiz
 def calcular_promedio(notas):
     promedio=sum(notas) /len(notas)
     return promedio
 
 
-#punto 3
+
+#reporte del diccionario 
 for ficha, aprendiz in grupo.items():
     promedio=calcular_promedio(aprendiz['notas'])
     estdo= "aprobado" if promedio >= 3.0 else "reprobado"
