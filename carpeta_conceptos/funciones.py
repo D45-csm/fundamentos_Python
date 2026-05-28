@@ -11,6 +11,8 @@ def funcion_con_parametros(nombre):
 
 funcion_con_parametros("daniel")
 
+def saludar(nombre, apellido, programa="ADSO"):
+    print(f"hola {nombre} {apellido} del programa {programa}")
 #operadores matematicos en funciones
 #suma
 def suma(a,b): return a + b
@@ -75,3 +77,10 @@ def eliminar_aprendiz(ficha, aprendiz):
         print(f"Aprendiz {aprendiz} no encontrado en la ficha")
 
 eliminar_aprendiz(ficha_aprendices_3321349, "Ana")
+
+#funcion lambda
+
+x= lambda a: a+10
+print(x(5))
+
+
